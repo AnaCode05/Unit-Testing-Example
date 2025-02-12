@@ -11,7 +11,7 @@ namespace Calculator_UnitTestingExample
     /// </summary>
     public class MathOperation
     {
-        // Operation attributes
+        // Operation class/object attributes
         public int FirstNumber { get; set; }
         public int SecondNumber { get; set; }
         public char? OperationSymbol { get; set; }
