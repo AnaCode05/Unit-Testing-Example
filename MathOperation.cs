@@ -45,9 +45,9 @@ namespace Calculator_UnitTestingExample
         /// </summary>
         /// <param name="operation"></param>
         /// <returns>Answer to operation (sum, difference, product, or quotient)</returns>
-        public double PerformOperation(char operation)
+        public double PerformOperation()
         {
-            switch (operation)
+            switch (OperationSymbol)
             {
                 case '+':
                     return FirstNumber + SecondNumber;
